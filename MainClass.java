@@ -166,9 +166,10 @@ public class MainClass extends Applet implements Runnable, KeyListener {
 				   }
 				   break;
 			   
-			   case KeyEvent.VK_SPACE:
+			   //debugging tool to quickly increase snake tail
+			   /*case KeyEvent.VK_SPACE:
 				   snake.incrSize();
-				   break;
+				   break;*/
 	
 			}
 		}
